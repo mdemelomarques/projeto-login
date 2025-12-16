@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
+
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+
 
 html, body {
     width: 100vw;
@@ -11,5 +16,31 @@ html, body {
 }
 
 body {
-    background-color: #437A5C;
+    background-color: #523946;
+}
+
+
+
+div#fundocoelho {
+    background-color: white;
+    background-image: url(../imagens/pexels-ferhat-sezek-530112540-21198651.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 280px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+div#login {
+    background-color: rgba(255, 255, 255, 0.527);
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 200px;
+    
 }
