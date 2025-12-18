@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: manga;
+    src: url(../fontes/mangat.ttf);
+}
 
+:root {
+    --fonte-principal: manga;
+}
 
 * {
     margin: 0;
@@ -16,31 +23,74 @@ html, body {
 }
 
 body {
-    background-color: #523946;
+    background-color: #ffffff;
+    background-image: url(../imagens/imgmanga2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
 
-div#fundocoelho {
+header {
+    width: 280px;
+    height: 109px;
+    
+    margin: auto;
+    
+    
+    
+}
+h1 {
+    font-family: var(--fonte-principal);
+    border: 1px solid black;
+    background-color: white ;
+    font-size: 2em;
+    color: #696969;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 30px ;
+    
+}
+
+nav#menu {
     background-color: white;
-    background-image: url(../imagens/pexels-ferhat-sezek-530112540-21198651.jpg);
+    text-align: center;
+    width: 280px;
+    border: 1px solid black;
+    height: 30px;
+    margin-top: 5px;
+   
+}
+
+nav#menu li:hover {
+    background-color: gainsboro;
+}
+
+
+
+div#fundomanga {
+    background-color: white;
+    background-image: url(../imagens/imgmanga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left top;
+    background-position: top left;
     width: 280px;
     height: 500px;
     margin: auto;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 54%;
     transform: translate(-50%, -50%);
+    border: 2px solid black;
     
 }
 div#login {
-    background-color: rgba(255, 255, 255, 0.527);
-    position: relative;
-    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    
+    width: 276px;
     height: 300px;
-    margin-top: 200px;
+    margin-top: 196px;
     
 }
