@@ -17,13 +17,16 @@
 
 
 
-html, body {
-    width: 100vw;
-    height: 100vh;
+
+
+html {
+    background-image: url(../imagens/fundomanga.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #ffffffc0;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -43,9 +46,9 @@ main{
 
 header {
     width: 17.5em;
-    
     grid-area: header;
     margin: auto;
+    
     
     
     
@@ -60,7 +63,7 @@ h1 {
     color: #ffffff;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-align: center;
-    margin-top: 0.9375em;
+    margin-top: 1em;
     
 }
 
@@ -229,6 +232,7 @@ input#submit {
 
 footer{
     grid-area: footer;
+    margin: auto;
     font-family: var(--fonte-principal);
     text-shadow: 1px 1px 1px black;
     width: 17.5em;
@@ -237,4 +241,5 @@ footer{
     margin-top: 10px;
     border: 1px solid black;
     text-align: center;
+    padding: 10px;
 }
