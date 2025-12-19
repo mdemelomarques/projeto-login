@@ -30,19 +30,20 @@ body {
     grid-template-areas: 
     "header"
     "main"
+    "footer"
     ;
 }
 
 main{
     grid-area: main;
-    display: none;
+    
 }
 
 
 
 header {
     width: 17.5em;
-    height: 6.8125em;
+    
     grid-area: header;
     margin: auto;
     
@@ -79,6 +80,7 @@ nav ul {
     list-style: none;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    display: none;
     
     
     
@@ -166,6 +168,7 @@ div#fundomanga {
     width: 17.5em;
     height: 31.25em;
     margin: auto;
+    overflow: hidden;
     
     
 }
@@ -222,4 +225,16 @@ input#submit {
     color: white;
     font-family: var(--fonte-principal);
     margin-bottom: 10px;
+}
+
+footer{
+    grid-area: footer;
+    font-family: var(--fonte-principal);
+    text-shadow: 1px 1px 1px black;
+    width: 17.5em;
+    background-color: #696969;
+    color: white;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-align: center;
 }
