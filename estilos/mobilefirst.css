@@ -35,13 +35,14 @@ body {
 
 main{
     grid-area: main;
+    
 }
 
 
 
 header {
-    width: 280px;
-    height: 109px;
+    width: 17.5em;
+    height: 6.8125em;
     grid-area: header;
     margin: auto;
     
@@ -58,16 +59,17 @@ h1 {
     color: #ffffff;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-align: center;
-    margin-top: 15px;
+    margin-top: 0.9375em;
     
 }
 
 nav#menu {
     background-color: white;
     text-align: center;
-    width: 280px;
+    width: 17.5em;
     border: 1px solid black;
-    height: 30px;
+    height: 1.875em;
+    
    
 }
 
@@ -83,8 +85,8 @@ div#fundomanga {
     border: 1px solid black;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 280px;
-    height: 500px;
+    width: 17.5em;
+    height: 31.25em;
     margin: auto;
     
     
@@ -93,9 +95,9 @@ div#login {
     background-color: #696969;
     
     border-top: 1px solid black;
-    width: 278px;
-    height: 340px;
-    margin-top: 153px;
+    width: 17.4em;
+    height: 21.25em;
+    margin-top: 9.5625em;
     display: grid;
     justify-items: center;
     align-items: center;
@@ -114,14 +116,15 @@ form#form{
 }
 form#form label{
     background-color: #696969;
-    margin: 10px;
-    padding: 5px;
+    border: 1px solid black;
+    margin: 0.625em;
+    padding: 0.3125em;
     display: flex;
     
 }
 
 input {
-    
+    border: 1px solid black;
     
     
 }
