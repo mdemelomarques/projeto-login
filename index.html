@@ -8,19 +8,43 @@
     <link rel="stylesheet" href="estilos/estilotablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
     <link rel="stylesheet" href="estilos/estilodesktop.css" media="screen and (min-width: 992px) and (max-width:1200px)">
     <link rel="stylesheet" href="estilos/estilotv.css" media="screen and (min-width: 1200px)">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+
+
+    
 </head>
 <body>
-    <header>
-        <h1>Super Mangas</h1>
-        <nav id="menu">
-            <span class="material-symbols-outlined">menu</span>
-        </nav>
-    </header>
-        <div id="fundomanga">
-            <div id="login">
+        <header>
+            <h1>Casa Do Manga</h1>
+            <nav id="menu">
+                <img src="icons/iconmenu.png" alt="">
+            </nav>
+        </header>
+
+        <main>
+            <div id="fundomanga">
+                <div id="login">
+                    <form action="" method="post" id="form">
+                        <label for="inome"><img src="icons/iconusuario.png" alt="" class="iconform">
+                            <input type="text" name="nome" id="inome" placeholder="Nome De Usuário" required>
+                        </label>
+                        
+                        <label for="iemail"><img src="icons/iconemail.png" alt="" class="iconform">
+                            <input type="email" name="email" id="iemail" placeholder="E-mail ex: user@email.com"  required>
+                        </label>
+                        
+                        <label for="isenha"><img src="icons/iconsenha.svg" alt="" class="iconform">
+                            <input type="password" name="senha" id="isenha" placeholder="Senha" required>
+                        </label>
+                        
+                        <label for="itel"><img src="icons/icontelefone.png" alt="" class="iconform">
+                            <input type="tel" name="tel" id="itel" placeholder="Telefone EX: (xx)xxxx-xxxx" required>
+                        </label>
+                        
+                        <input type="submit" value="Entrar" id="submit">
+                    </form>
+                </div>
             </div>
-        </div>
+        </main>
     
     
     

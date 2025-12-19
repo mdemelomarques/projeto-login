@@ -24,10 +24,17 @@ html, body {
 
 body {
     background-color: #ffffff;
-    background-image: url(../imagens/imgmanga2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-areas: 
+    "header"
+    "main"
+    ;
+}
+
+main{
+    grid-area: main;
 }
 
 
@@ -35,8 +42,10 @@ body {
 header {
     width: 280px;
     height: 109px;
-    
+    grid-area: header;
     margin: auto;
+    
+    
     
     
     
@@ -44,12 +53,12 @@ header {
 h1 {
     font-family: var(--fonte-principal);
     border: 1px solid black;
-    background-color: white ;
+    background-color: #696969 ;
     font-size: 2em;
-    color: #696969;
+    color: #ffffff;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-align: center;
-    margin-top: 30px ;
+    margin-top: 15px;
     
 }
 
@@ -70,27 +79,67 @@ nav#menu li:hover {
 
 
 div#fundomanga {
-    background-color: white;
-    background-image: url(../imagens/imgmanga.jpg);
-    background-size: cover;
+    background-color: #696969;
+    background-image: url(../imagens/imgmanga4.webp);
+    border: 1px solid black;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: top left;
     width: 280px;
     height: 500px;
     margin: auto;
-    position: absolute;
-    left: 50%;
-    top: 54%;
-    transform: translate(-50%, -50%);
-    border: 2px solid black;
+    
     
 }
 div#login {
-    background-color: white;
-    border: 1px solid black;
+    background-color: #696969;
     
-    width: 276px;
-    height: 300px;
-    margin-top: 196px;
+    border-top: 1px solid black;
+    width: 278px;
+    height: 340px;
+    margin-top: 153px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     
+}
+
+
+
+form#form{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+form#form label{
+    background-color: #696969;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    
+}
+
+input {
+    
+    
+    
+}
+
+img.iconform {
+    display: block;
+    
+
+}
+
+input#submit {
+    width: 120px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    background-color: #696969;
+    color: white;
+    font-family: var(--fonte-principal);
+    margin-bottom: 10px;
 }
