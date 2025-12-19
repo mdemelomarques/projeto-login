@@ -35,7 +35,7 @@ body {
 
 main{
     grid-area: main;
-    
+    display: none;
 }
 
 
@@ -73,8 +73,86 @@ nav#menu {
    
 }
 
-nav#menu li:hover {
-    background-color: gainsboro;
+nav ul {
+    width: 17.5em;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+    
+    
+}
+nav > ul > li {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    background-color: bisque;
+    width: 8.7em;
+    height: 6.25em;
+    
+}
+
+ul a {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: var(--fonte-principal);
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    margin-top: 37px;
+    text-decoration: none;
+}
+
+li#home {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+li#mal{
+    background-color: rgb(55, 79, 214);
+    background-image: url(../imagensmenu/myanime.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li#cruch {
+    background-color: rgb(255, 115, 0);
+    background-image: url(../imagensmenu/crunch.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li#rika{
+    background-color: rgb(255, 255, 255);
+    background-image: url(../imagensmenu/rika.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+li#panini{
+    background-color: rgb(255, 208, 0);
+    background-image: url(../imagensmenu/panini.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+li#comix {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../imagensmenu/Cmix.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+li:hover {
+    background-image: url(../imagens/Jojo-Menacing-PNG-Photos.png);
+    background-size: contain;
+    z-index: 2;
 }
 
 
