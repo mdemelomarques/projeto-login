@@ -1,25 +1,39 @@
 @charset "UTF-8";
 
 
-html {
-    
-}
 header {
     width: 768px;
     
 }
 
+header h1 {
+    padding: 30px;
+}
+
+nav#menu {
+    width: 768px;
+}
+
 
 div#fundomanga {
-    width: 768px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../imagens/imgmanga4.webp);
+    background-repeat: no-repeat;
     background-size: cover;
+    width: 768px;
+    height: 506px;
     display: flex;
     align-items: center;
+    
+    
 }
 
 div#login {
+    margin: 0;
     height: 100%;
 }
+
+
 
 
 footer {

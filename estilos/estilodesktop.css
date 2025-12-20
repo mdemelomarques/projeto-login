@@ -1,1 +1,124 @@
 @charset "UTF-8";
+
+body {
+    display: block;
+}
+
+header {
+    background-color: aqua;
+    width: 100%;
+    
+}
+
+h1 {
+    margin: 0;
+    padding: 30px;
+    border: 0px;
+}
+
+nav#menu {
+    width: 100%;
+    height: 40px;
+    border: 0px;
+
+    
+}
+
+nav#menu ul{
+    background-color: #ffffff;
+    border: 0px;
+}
+
+nav#menu img {
+    display: none;
+}
+
+nav#menu ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ul a {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+li {
+    background-image: none;
+    margin-right: 20px;
+    border: 0px;
+    
+    
+}
+li#home {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    
+}
+
+li#mal{
+    background-color: rgb(55, 79, 214);
+    background-image: none;
+    height: 100%;
+}
+
+li#cruch {
+    background-color: rgb(255, 115, 0);
+    background-image: none;
+    height: 100%;
+}
+
+li#rika{
+    background-color: rgb(255, 255, 255);
+    background-image:none;
+    height: 100%;
+}
+
+li#panini{
+    background-color: rgb(255, 208, 0);
+    background-image: none;
+    height: 100%;
+    
+}
+
+li#comix {
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    height: 100%;
+    
+}
+
+div#fundomanga {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../imagens/fundomanga.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 506px;
+   
+    
+    
+}
+
+div#login {
+    margin: auto;
+    height: 100%;
+}
+
+
+
+footer {
+    width: 100%;
+    margin: 0;
+}

@@ -25,6 +25,7 @@ html, body {
 
 
 body {
+    width: 100vw;
     background-color: #ffffffc0;
     display: grid;
     align-items: center;
@@ -70,7 +71,7 @@ nav#menu {
     background-color: white;
     text-align: center;
     width: 17.5em;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     height: 1.875em;
     
    
@@ -90,8 +91,8 @@ nav ul {
 nav > ul > li {
     display: block;
     text-align: center;
-    border: 1px solid black;
-    background-color: bisque;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     width: 8.7em;
     height: 6.25em;
     
@@ -150,14 +151,10 @@ li#comix {
     background-image: url(../imagensmenu/Cmix.png);
     background-size: contain;
     background-repeat: no-repeat;
-    z-index: 1;
+    
 }
 
-li:hover {
-    background-image: url(../imagens/Jojo-Menacing-PNG-Photos.png);
-    background-size: contain;
-    z-index: 2;
-}
+
 
 
 
