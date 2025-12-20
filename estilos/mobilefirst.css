@@ -17,13 +17,12 @@
 
 
 
-
-
-html {
-    background-image: url(../imagens/fundomanga.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+html, body {
+    width: 100vw;
+    height: 100vh;
 }
+
+
 
 body {
     background-color: #ffffffc0;
@@ -177,7 +176,6 @@ div#fundomanga {
 }
 div#login {
     background-color: #696969;
-    
     border-top: 1px solid black;
     width: 17.4em;
     height: 21.25em;
