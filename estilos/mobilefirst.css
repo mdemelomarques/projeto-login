@@ -67,91 +67,47 @@ h1 {
     
 }
 
-nav#menu {
-    background-color: white;
+
+
+nav {
+    font-family: var(--fonte-principal);
+    background-color: #696969;
+    display: none;
     text-align: center;
-    width: 17.5em;
     border: 1px solid rgb(0, 0, 0);
-    height: 1.875em;
-    
-   
 }
+
+span#burguer {
+    display: block;
+    text-align: center;
+    background-color: gainsboro;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
 
 nav ul {
-    width: 17.5em;
-    background-color: rgb(255, 255, 255);
-    list-style: none;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    display: none;
+    list-style-type: none;
     
-    
-    
-}
-nav > ul > li {
-    display: block;
-    text-align: center;
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    width: 8.7em;
-    height: 6.25em;
     
 }
 
-ul a {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    font-family: var(--fonte-principal);
+li { 
+    background-color: white;
     border: 1px solid black;
-    display: block;
-    text-align: center;
-    margin-top: 37px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+li:hover {
+    background-color: gainsboro;
+}
+
+a {
     text-decoration: none;
-}
-
-li#home {
-    background-color: rgb(255, 255, 255);
-    
-}
-
-li#mal{
-    background-color: rgb(55, 79, 214);
-    background-image: url(../imagensmenu/myanime.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-li#cruch {
-    background-color: rgb(255, 115, 0);
-    background-image: url(../imagensmenu/crunch.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-li#rika{
-    background-color: rgb(255, 255, 255);
-    background-image: url(../imagensmenu/rika.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-li#panini{
-    background-color: rgb(255, 208, 0);
-    background-image: url(../imagensmenu/panini.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-li#comix {
-    background-color: rgb(255, 255, 255);
-    background-image: url(../imagensmenu/Cmix.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+    color: black;
 }
 
 
@@ -165,9 +121,11 @@ div#fundomanga {
     background-size: contain;
     background-repeat: no-repeat;
     width: 17.5em;
-    height: 31.25em;
+    height: 38.25em;
     margin: auto;
     overflow: hidden;
+    z-index: 1;
+   
     
     
 }
@@ -181,6 +139,36 @@ div#login {
     justify-items: center;
     align-items: center;
     
+}
+
+div#login h3 {
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+div#login h4 {
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div#login p {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
 }
 
 
@@ -222,6 +210,18 @@ input#submit {
     background-color: #696969;
     color: white;
     font-family: var(--fonte-principal);
+    margin-bottom: 10px;
+}
+
+input#cadastro {
+    width: 120px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    background-color: #696969;
+    color: white;
+    font-family: var(--fonte-principal);
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
